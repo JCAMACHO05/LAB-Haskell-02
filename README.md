@@ -322,8 +322,38 @@ aStar vecinos heuristica inicio meta
 
 ## Retrospectiva
 1. ¿Cuál fue el tiempo total invertido en el laboratorio por cada uno de ustedes? (Horas/Hombre)
+El tiempo total invertido en el laboratorio fue aproximadamente de 10–12 horas, distribuidas entre la comprensión del problema, la implementación del algoritmo A* y la realización de pruebas para verificar su funcionamiento.
+
 2. ¿Cuál es el estado actual del laboratorio? ¿Por qué?
+El laboratorio se encuentra completado y funcional, ya que se logró implementar correctamente el algoritmo A* para resolver el problema de las dos jarras.
+El programa permite encontrar una secuencia válida de pasos desde el estado inicial hasta el estado objetivo.
+
 3. ¿Cuál consideran fue el mayor logro? ¿Por qué?
+El mayor logro fue implementar correctamente el algoritmo A* en Haskell.
+Esto fue importante porque permitió aplicar conceptos teóricos de búsqueda informada en un problema concreto y entender mejor el uso de heurísticas.
+
 4. ¿Cuál consideran que fue el mayor problema técnico? ¿Qué hicieron para resolverlo?
+El mayor problema técnico fue definir correctamente las funciones de transición de estados, especialmente las funciones de transferencia entre jarras.
+Para solucionarlo:
+Analicé las restricciones de capacidad de cada jarra.
+Utilicé la función min para controlar cuánto líquido se podía transferir.
+Probé distintos casos manualmente hasta validar que las transiciones fueran correctas.
+
 5. ¿Qué hicieron bien como equipo? ¿Qué se comprometen a hacer para mejorar los resultados?
+Lo que hice bien:
+Buena organización del desarrollo del problema.
+Implementación progresiva del código (por partes).
+Validación del resultado con ejemplos.
+
+Para mejorar:
+Optimizar la gestión del tiempo.
+Documentar mejor el código desde el inicio.
+Profundizar más en el diseño de heurísticas.
+
 6. ¿Qué referencias usaron? ¿Cuál fue la más útil? Incluyan citas con estándares adecuados.
+Russell, S., & Norvig, P. (2010). Artificial Intelligence: A Modern Approach. Prentice Hall.
+Material de clase sobre algoritmos de búsqueda informada.
+Documentación oficial de Haskell: https://www.haskell.org/documentation/
+
+Referencia más útil:
+El libro de Russell y Norvig fue el más útil, ya que explica de forma clara el algoritmo A* y el concepto de heurística.
